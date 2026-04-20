@@ -1,0 +1,51 @@
+const btn_1 = document.getElementById('btn_1');
+btn_1.onclick = function () {
+    window.location.href = 'https://github.com/website7777/mila/releases'
+};
+const btn_2 = document.getElementById('btn_2');
+btn_2.onclick = function () {
+    window.location.href = 'https://github.com/website7777/mila/releases'
+};
+const btn_3 = document.getElementById('btn_3');
+btn_3.onclick = function () {
+    window.location.href = '#third'
+};
+const btn_4 = document.getElementById('btn_4');
+btn_4.onclick = function () {
+    window.location.href = 'https://github.com/website7777/mila/releases'
+};
+const h2_11 = document.getElementById('h2_11');
+h2_11.onclick = function () {
+    window.location.href = '#first'
+};
+const p12 = document.getElementById('p12')
+const p13 = document.getElementById('p13')
+const p14 = document.getElementById('p14')
+const p15 = document.getElementById('p15')
+const p16 = document.getElementById('p16')
+const p17 = document.getElementById('p17')
+p12.onclick = function () {
+    p13.style.opacity = p13.style.opacity === '1' || p13.style.opacity === '100' ? '0' : '1'
+}
+p14.onclick = function () {
+    p15.style.opacity = p15.style.opacity === '1' || p15.style.opacity === '100' ? '0' : '1'
+}
+p16.onclick = function () {
+    p17.style.opacity = p17.style.opacity === '1' || p17.style.opacity === '100' ? '0' : '1'
+}
+const oportunity = document.getElementById('oportunity');
+oportunity.onclick = function () {
+    window.location.href = '#third'
+};
+const pc_manage = document.getElementById('pc_manage');
+pc_manage.onclick = function () {
+    window.location.href = '#fourth'
+};
+const telegram = document.getElementById('telegram');
+telegram.onclick = function () {
+    window.location.href = '#fivth'
+};ninth
+const FAQ = document.getElementById('FAQ');
+FAQ.onclick = function () {
+    window.location.href = '#ninth'
+};
