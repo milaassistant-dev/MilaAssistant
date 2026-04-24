@@ -44,8 +44,55 @@ pc_manage.onclick = function () {
 const telegram = document.getElementById('telegram');
 telegram.onclick = function () {
     window.location.href = '#fivth'
-};ninth
+};
 const FAQ = document.getElementById('FAQ');
 FAQ.onclick = function () {
     window.location.href = '#ninth'
+};
+
+const androidBtnDownload = document.getElementById('android_btn_download');
+if (androidBtnDownload) {
+    androidBtnDownload.onclick = function () {
+        window.location.href = 'https://github.com/website7777/mila/releases'
+    };
+}
+
+const androidBtnFeatures = document.getElementById('android_btn_features');
+if (androidBtnFeatures) {
+    androidBtnFeatures.onclick = function () {
+        window.location.href = '#third'
+    };
+}
+const AndroiFaq_h4_1 = document.getElementById('AndroiFaq_h4_1')
+const AndroiFaq_h4_2 = document.getElementById('AndroiFaq_h4_2')
+const AndroiFaq_h4_3 = document.getElementById('AndroiFaq_h4_3')
+const AndroiFaq_p1 = document.getElementById('AndroiFaq_p1')
+const AndroiFaq_p2 = document.getElementById('AndroiFaq_p2')
+const AndroiFaq_p3 = document.getElementById('AndroiFaq_p3')
+
+function toggleOpacity(el) {
+    if (!el) return;
+    el.style.opacity = el.style.opacity === '1' || el.style.opacity === '100' ? '0' : '1'
+}
+
+if (AndroiFaq_h4_1) {
+    AndroiFaq_h4_1.onclick = function () {
+        toggleOpacity(AndroiFaq_p1)
+    }
+}
+
+if (AndroiFaq_h4_2) {
+    AndroiFaq_h4_2.onclick = function () {
+        toggleOpacity(AndroiFaq_p2)
+    }
+}
+
+if (AndroiFaq_h4_3) {
+    AndroiFaq_h4_3.onclick = function () {
+        toggleOpacity(AndroiFaq_p3)
+    }
+}
+const android_app = document.getElementById('Android')
+android_app.onclick = function () {
+    window.location.href = '#android-app'
 };
