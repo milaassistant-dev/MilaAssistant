@@ -92,6 +92,10 @@ if (AndroiFaq_h4_3) {
         toggleOpacity(AndroiFaq_p3)
     }
 }
+const footer_telegram = document.getElementById('footer_telegram');
+btn_3.onclick = function () {
+    window.location.href = 'https://t.me/mila_assistant12345'
+};
 const android_app = document.getElementById('Android')
 android_app.onclick = function () {
     window.location.href = '#android-app'
