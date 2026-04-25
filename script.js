@@ -93,8 +93,15 @@ if (AndroiFaq_h4_3) {
     }
 }
 const footer_telegram = document.getElementById('footer_telegram');
-btn_3.onclick = function () {
+footer_telegram.onclick = function () {
     window.location.href = 'https://t.me/mila_assistant12345'
+};
+const footer_github = document.getElementById('footer_github');
+footer_github.onclick = function () {
+    window.location.href = 'https://github.com/website7777/mila/releases'
+};
+footer_support.onclick = function () {
+    window.location.href = 'https://t.me/Mila_Assistant_Support_bot'
 };
 const android_app = document.getElementById('Android')
 android_app.onclick = function () {
